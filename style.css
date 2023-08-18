@@ -15,7 +15,7 @@ body {
     width: 85vw;
     height: 50vh;
     margin-top: 5rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     border: 5px solid rebeccapurple;
     border-radius: 5px;
     position: relative;
@@ -61,11 +61,15 @@ body {
     text-transform: capitalize;
     color: rgb(128, 128, 128);
     cursor: pointer;
-    transition: all .5s ease;
+    transition: all .2s ease;
 }
 
 .prev {
     visibility: hidden;
+}
+
+.next {
+    visibility: visible;
 }
 
 .btn:hover {
