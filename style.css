@@ -13,13 +13,12 @@ body {
 
 .slider-container {
     width: 85vw;
-    max-height: 50vh;
+    height: 50vh;
     margin-top: 5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 5px solid rebeccapurple;
     border-radius: 5px;
     position: relative;
-    display: flex;
 }
 
 .slide {
@@ -66,4 +65,24 @@ body {
 
 .btn:hover {
     color: rgb(77, 77, 77);
+}
+
+.slide:nth-child(1) {
+    left: 0;
+}
+
+.slide:nth-child(2) {
+    left: 100%;
+}
+
+.slide:nth-child(3) {
+    left: 200%;
+}
+
+.slide:nth-child(4) {
+    left: 300%;
+}
+
+.slide {
+    transform: translateX(-200%);
 }
